@@ -9,5 +9,19 @@ git config --global credential.helper 'cache --timeout=3600' //timeout password 
 To setup a file in git create repo online with gui
 Create directory on hard disk
 Change directory on hard disk
+
 git init //grabs files from git
+
 touch README //creates readme file on disk
+
+git add README //prepare to upload file
+
+git commit -m 'first commit' //type revision
+
+git remote add origin https://gitub.com/"user_name"/Hello-World.git //tell where your uploading
+
+git push origin master //push file to web
+
+Tada your done
+
+Linky: https://help.github.com/articles/create-a-repo
