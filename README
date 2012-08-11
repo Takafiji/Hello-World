@@ -1,0 +1,13 @@
+git config --global user.name "enter_name_here" //sets user name
+
+git config --global user.email "enter_email_here" //sets email
+
+git config --global credential.helper cache //start config of cache
+
+git config --global credential.helper 'cache --timeout=3600' //timeout password every hour
+
+To setup a file in git create repo online with gui
+Create directory on hard disk
+Change directory on hard disk
+git init //grabs files from git
+touch README //creates readme file on disk
